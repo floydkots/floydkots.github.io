@@ -39,7 +39,10 @@ a:hover, a:focus, a:active, a.active {
 }
 a, a:hover, a:focus, a:active, a.active {
     outline: 0;
+    /* color: #ffffff; */
 }
+
+a {}
 
 ::selection {
     text-shadow: none;
@@ -291,13 +294,13 @@ figure.effect-bubba {
 }
 
 figure.effect-bubba img {
-    opacity: 0.8;
+    opacity: 0.4;
     -webkit-transition: opacity 0.35s;
     transition: opacity 0.35s;
 }
 
 figure.effect-bubba:hover img {
-    opacity: 0.4;
+    opacity: 0.2;
 }
 
 figure.effect-bubba figcaption::before,
@@ -343,12 +346,12 @@ figure.effect-bubba p {
     color: #fff;
     font-size: 13px;
     font-weight: 500;
-    padding: 20px 2.5em;
+    padding: 5px 2.5em;
     opacity: 0;
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s, transform 0.35s;
-    -webkit-transform: translate3d(0,20px,0);
-    transform: translate3d(0,20px,0);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
 }
 
 figure.effect-bubba:hover figcaption::before,
@@ -361,8 +364,8 @@ figure.effect-bubba:hover figcaption::after {
 figure.effect-bubba:hover h2,
 figure.effect-bubba:hover p {
     opacity: 1;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,-10px,0);
+    transform: translate3d(0,-10px,0);
 }
 
 /*--------------------
@@ -453,7 +456,7 @@ footer p a span {
 }
 
 .modal-works span {
-    background-color: #FED136;
+    background-color: #122b40;
     margin-right: 15px;
     padding: 5px 10px;
 }
